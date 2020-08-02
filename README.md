@@ -13,3 +13,16 @@ npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/n
 yarn install
 npm run dev
 ```
+
+## Production
+
+```
+yarn build
+# .nextが生成される
+```
+
+## Vercel
+
+* 前会社 ZEIT
+* Github Apps「Vercel」をリポジトリにインストール
+  * organizationにVercelをインストールする時は、パーソナルアカウントが選択肢に表示されるが使えない。Vercelにteamを作る必要がある。
