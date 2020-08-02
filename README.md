@@ -29,3 +29,4 @@ yarn build
 
 Githubにpushするとステージングに自動デプロイされて、PRにコメントされる。
 * https://vercel.com/mitsuru793-try-it/try-nextjs/kpr9uwgx7
+* PRをマージすると、Vercelのpreviewからそのブランチが自動で消える。
