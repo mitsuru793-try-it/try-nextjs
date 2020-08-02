@@ -26,3 +26,6 @@ yarn build
 * 前会社 ZEIT
 * Github Apps「Vercel」をリポジトリにインストール
   * organizationにVercelをインストールする時は、パーソナルアカウントが選択肢に表示されるが使えない。Vercelにteamを作る必要がある。
+
+Githubにpushするとステージングに自動デプロイされて、PRにコメントされる。
+* https://vercel.com/mitsuru793-try-it/try-nextjs/kpr9uwgx7
