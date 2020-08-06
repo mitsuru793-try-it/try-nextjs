@@ -1,5 +1,8 @@
 TODO
 * [ ] https://nextjs.org/learn/basics/data-fetching
+* [ ] hydrationという処理
+* [ ] TTFB
+* [ ] SWR(React hook)
 
 This is a starter template for [Learn Next.js](https://nextjs.org/learn).
 
@@ -63,7 +66,17 @@ Githubにpushするとステージングに自動デプロイされて、PRに�
 * Next.js compiles CSS using PostCSS.
 * you can create a top-level file called postcss.config.js.
   
+### data fetching
+
+* nextjsは静的生成とサーバサイドレンダリングどちらも可能。ページごとに選べる。
+* 最初に1回DBやFile Systemからfetchする場合は、データ付きで静的生成が可能。
+* getStaticPropsは開発時はリクエストごと走る。
+  * page/でexport functionする。Reactがレンダリングの前にデータを知る必要があるため。
+* getServerSideProps
   
 ### Etc
 * \<html lang>を修正する時は\<Head>ではなく、\<Document>を使う。
 * pages/_app.jsを追加した後はサーバーを再起動
+* chrome developer consoleでcmd + shift + pでアクションパレットが開く。
+
+ 
