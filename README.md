@@ -87,7 +87,14 @@ Pageは次を含む。
 * getStaticProps({ params })
   * idのdataを返す
 
-  
+### 登場したライブラリ
+
+* date-fns 
+* gray-matter
+* remark
+* remark-html
+* tailwindcss
+
 ### Etc
 * \<html lang>を修正する時は\<Head>ではなく、\<Document>を使う。
 * pages/_app.jsを追加した後はサーバーを再起動
