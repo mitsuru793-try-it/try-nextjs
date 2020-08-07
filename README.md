@@ -5,6 +5,8 @@ TODO
 * [ ] SWR(React hook)
 * [ ] dangerouslySetInnerHTML
 * [ ] Preview Mode
+* [ ] Jamstack
+* [ ] Serverless Functions
 
 This is a starter template for [Learn Next.js](https://nextjs.org/learn).
 
@@ -90,5 +92,6 @@ Pageは次を含む。
 * \<html lang>を修正する時は\<Head>ではなく、\<Document>を使う。
 * pages/_app.jsを追加した後はサーバーを再起動
 * chrome developer consoleでcmd + shift + pでアクションパレットが開く。
+* The DPS Workflow: Develop, Preview, and Ship.
 
  
