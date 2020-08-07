@@ -3,6 +3,8 @@ TODO
 * [ ] hydrationという処理
 * [ ] TTFB
 * [ ] SWR(React hook)
+* [ ] dangerouslySetInnerHTML
+* [ ] Preview Mode
 
 This is a starter template for [Learn Next.js](https://nextjs.org/learn).
 
@@ -73,6 +75,16 @@ Githubにpushするとステージングに自動デプロイされて、PRに�
 * getStaticPropsは開発時はリクエストごと走る。
   * page/でexport functionする。Reactがレンダリングの前にデータを知る必要があるため。
 * getServerSideProps
+
+Dynamic Routing
+
+Pageは次を含む。
+* React component
+* getStaticPaths()
+  * パスパラメータを返す。\[id].jsならidを返す
+* getStaticProps({ params })
+  * idのdataを返す
+
   
 ### Etc
 * \<html lang>を修正する時は\<Head>ではなく、\<Document>を使う。
